@@ -1,0 +1,75 @@
+li {
+  float: right;
+}
+ul{
+  background-color: #000000;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 24px 30px;
+  background-color: #000000;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  height: 100vh; 
+  background: url('img/herosec.avif') no-repeat center center/cover;
+  background-size: cover; 
+  background-position: center center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 4.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 3cap;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 3cm;
+}
+
+.btn {
+  background-color: #ff7b7b;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.btn:hover {
+  background-color: #ff4f4f;
+}
+.logo img {
+  width: 120px;}
+.p {
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: #252525;
+}
+.footer{
+  position:absolute;
+  left:45%;
+  padding-top: 100px;
+}

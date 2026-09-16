@@ -1,0 +1,24 @@
+section.choices{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin-top:20px;
+}
+.options {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+.options img{
+  width:220px;
+  height: 300px;
+  margin-left:120px;
+}
+.headline{
+  padding-top: 3cm;
+}
+.btn{
+  position: absolute;
+  left:45%;
+  margin-bottom: 1000px;
+}
